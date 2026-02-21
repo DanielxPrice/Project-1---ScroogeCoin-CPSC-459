@@ -1,5 +1,9 @@
 # ScroogeCoin Transaction Handler
 
+## Provider
+- Daniel Price
+- Minjae Kim
+
 ## Overview
 
 This project implements the core transaction validation logic for a simplified cryptocurrency system called **ScroogeCoin**. The central authority, Scrooge, receives proposed transactions and processes them to maintain a valid ledger of unspent transaction outputs (UTXOs).
@@ -7,6 +11,8 @@ This project implements the core transaction validation logic for a simplified c
 The objective of this assignment is to implement the transaction handler that validates transactions and updates the ledger according to the specified rules.
 
 Only `TxHandler.java` was modified as required by the assignment.
+
+`MaxFeeTxHandler.jaba` is implemented for the extra credit.
 
 ---
 
