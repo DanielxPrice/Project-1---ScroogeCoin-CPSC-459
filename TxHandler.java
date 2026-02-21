@@ -38,12 +38,12 @@ public class TxHandler {
 
             UTXO utxo = new UTXO(in.prevTxHash, in.outputIndex);
 
-            // (1) must exist in current pool
+            // (1) all outputs claimed by tx are in the current UTXO pool
             if (!utxoPool.contains(utxo)) {
                 return false;
             }
 
-            // (3) no double claim
+            // (3) no UTXO is claimed multiple times by tx
             if (usedUtxos.contains(utxo)) {
                 return false;
             }
@@ -92,7 +92,7 @@ public class TxHandler {
 
         boolean progress = true;
 
-        // Keep trying to accept transactions until no more can be added
+        // it keeps trying to accept transactions until no more can be added
         while (progress) {
             progress = false;
 
