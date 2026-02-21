@@ -2,7 +2,7 @@
 
 ## Provider
 - Daniel Price (danielprice1642@csu.fullerton.edu)
-- Minjae Kim
+- Minjae Kim (minjaek@csu.fullerton.edu)
 
 ## Section
 CPSC 459-01 18227
