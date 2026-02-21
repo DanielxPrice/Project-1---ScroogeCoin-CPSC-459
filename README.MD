@@ -1,8 +1,13 @@
 # ScroogeCoin Transaction Handler
 
 ## Provider
-- Daniel Price
+- Daniel Price (danielprice1642@csu.fullerton.edu)
 - Minjae Kim
+
+## Section
+CPSC 459-01 18227
+
+# We implemented  the extra credit
 
 ## Overview
 
